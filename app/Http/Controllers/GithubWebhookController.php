@@ -27,7 +27,6 @@ class GithubWebhookController extends Controller
             'vendor' => 'github',
             'data' => $data,
         ]);
-        logger($data);
         return $this->render([]);
     }
 }
